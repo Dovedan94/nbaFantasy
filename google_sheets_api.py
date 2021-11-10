@@ -106,4 +106,3 @@ def get_tabela_data():
     all_data = response.get("values", [])
 
     return all_data
-

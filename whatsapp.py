@@ -22,7 +22,6 @@ def send_tabela_data_via_whatsapp():
     df_new = pd.read_csv("novi.csv", index_col=1)
 
     dfi.export(df_new, "tabela.png")
-
     current_time = strftime("%Y-%m-%d %H:%M:%S", localtime())
     pywhatkit.sendwhats_image(
         "+381631076732",
@@ -33,3 +32,4 @@ def send_tabela_data_via_whatsapp():
 
 
 send_tabela_data_via_whatsapp()
+

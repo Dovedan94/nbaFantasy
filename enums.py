@@ -235,7 +235,7 @@ KARADZIC_TEAMS = ["BOS", "PHI", "MIA", "MIA", "GSW", "MIN", "SAC", "POR", "PHI",
 
 MANDIC_PLAYERS_NAMES = [
     "Donovan Mitchell",
-    "Michael Porter Jr.",
+    "Furkan Korkmaz",
     "Gary Trent Jr.",
     "Jerami Grant",
     "Reggie Jackson",
@@ -247,7 +247,7 @@ MANDIC_PLAYERS_NAMES = [
 ]
 MANDIC_PLAYERS_LINKS = [
     "mitchdo01",
-    "portemi01",
+    "korkmfu01",
     "trentga02",
     "grantje01",
     "jacksre01",
@@ -429,7 +429,7 @@ TUROHAN_TEAMS = ["DAL", "LAL", "DAL", "NOP", "MIN", "CHI", "LAL", "LAC", "ATL", 
 SAVCIC_PLAYERS_NAMES = [
     "Nikola Jokić",
     "Nikola Vučević",
-    "Collin Sexton",
+    "LaMarcus Aldridge",
     "Buddy Hield",
     "RJ Barrett",
     "Seth Curry",
@@ -441,7 +441,7 @@ SAVCIC_PLAYERS_NAMES = [
 SAVCIC_PLAYERS_LINKS = [
     "jokicni01",
     "vucevni01",
-    "sextoco01",
+    "aldrila01",
     "hieldbu01",
     "barrerj01",
     "curryse01",
