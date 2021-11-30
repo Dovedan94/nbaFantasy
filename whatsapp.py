@@ -32,4 +32,4 @@ def send_tabela_data_via_whatsapp():
 
 
 send_tabela_data_via_whatsapp()
-
+# write_all_pts_logs(ALL_PLAYERS_PTS_LOGS)

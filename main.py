@@ -5,6 +5,9 @@ from bs4 import BeautifulSoup
 
 
 # GETS ALL NBA PLAYERS POINTS THIS SEASON
+from enums import ALL_ROSTERS, ALL_PLAYERS_PTS_LOGS
+
+
 def get_all_points_by_team(teams_abbreviations):
     all_data = []
 
@@ -82,10 +85,11 @@ def get_game_logs_data(single_fantasy_player_list):
         regular_season_points_table = soup.find("table", id="pgl_basic").find_all("tr")
 
         for column in regular_season_points_table[1::]:
-            if column.find_all("td")[0].text != "":
-                nba_player_points.append(column.find_all("td")[26].text)
-            else:
-                nba_player_points.append("0")
+            if column.find("td") is not None:
+                if column.find_all("td")[0].text != "":
+                    nba_player_points.append(column.find_all("td")[26].text)
+                else:
+                    nba_player_points.append("0")
 
         all_data.append(nba_player_points)
 

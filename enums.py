@@ -242,7 +242,7 @@ MANDIC_PLAYERS_NAMES = [
     "Clint Capela",
     "Terrence Ross",
     "Terance Mann",
-    "Doug McDermott",
+    "Jae Crowder",
     "Rui Hachimura",
 ]
 MANDIC_PLAYERS_LINKS = [
@@ -254,7 +254,7 @@ MANDIC_PLAYERS_LINKS = [
     "capelca01",
     "rosste01",
     "mannte01",
-    "mcderdo01",
+    "crowdja01",
     "hachiru01",
 ]
 MANDIC_PLAYERS = {"Mandic": list(zip(MANDIC_PLAYERS_NAMES, MANDIC_PLAYERS_LINKS))}
@@ -294,24 +294,24 @@ MEDIC_PLAYERS_NAMES = [
     "Karl-Anthony Towns",
     "Malcolm Brogdon",
     "John Collins",
-    "OG Anunoby",
+    "Talen Horton-Tucker",
     "Mikal Bridges",
     "Chris Duarte",
     "Will Barton",
     "Miles Bridges",
-    "De'Anthony Melton",
+    "OG Anunoby",
 ]
 MEDIC_PLAYERS_LINKS = [
     "youngtr01",
     "townska01",
     "brogdma01",
     "collijo01",
-    "anunoog01",
+    "hortota01",
     "bridgmi01",
     "duartch01",
     "bartowi01",
     "bridgmi02",
-    "meltode01",
+    "anunoog01",
 ]
 MEDIC_PLAYERS = {"Medic": list(zip(MEDIC_PLAYERS_NAMES, MEDIC_PLAYERS_LINKS))}
 MEDIC_TEAMS = ["ATL", "MIN", "IND", "ATL", "TOR", "PHO", "IND", "DEN", "CHO", "MEM"]
@@ -460,7 +460,7 @@ SAVOVIC_PLAYERS_NAMES = [
     "Fred VanVleet",
     "Dejounte Murray",
     "Rudy Gobert",
-    "Ben Simmons",
+    "Cedi Osman",
     "Luguentz Dort",
     "Kevin Huerter",
     "Aaron Gordon",
@@ -472,7 +472,7 @@ SAVOVIC_PLAYERS_LINKS = [
     "vanvlfr01",
     "murrade01",
     "goberru01",
-    "simmobe01",
+    "osmande01",
     "dortlu01",
     "huertke01",
     "gordoaa01",
