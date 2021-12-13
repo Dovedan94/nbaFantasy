@@ -126,7 +126,7 @@ FIZESAN_PLAYERS_NAMES = [
     "LaMelo Ball",
     "Franz Wagner",
     "Kevin Porter Jr.",
-    "Jalen Suggs",
+    "Pat Connaughton",
     "Montrezl Harrell",
     "Richaun Holmes",
     "Scottie Barnes",
@@ -138,7 +138,7 @@ FIZESAN_PLAYERS_LINKS = [
     "ballla01",
     "wagnefr01",
     "porteke02",
-    "suggsja01",
+    "connapa01",
     "harremo01",
     "holmeri01",
     "barnesc01",
@@ -270,7 +270,7 @@ MARINOVIC_PLAYERS_NAMES = [
     "Shake Milton",
     "Evan Mobley",
     "Bobby Portis",
-    "Victor Oladipo",
+    "Josh Giddey",
 ]
 MARINOVIC_PLAYERS_LINKS = [
     "jamesle01",
@@ -282,7 +282,7 @@ MARINOVIC_PLAYERS_LINKS = [
     "miltosh01",
     "mobleev01",
     "portibo01",
-    "oladivi01",
+    "giddejo01",
 ]
 MARINOVIC_PLAYERS = {
     "Marinovic": list(zip(MARINOVIC_PLAYERS_NAMES, MARINOVIC_PLAYERS_LINKS))
@@ -299,7 +299,7 @@ MEDIC_PLAYERS_NAMES = [
     "Chris Duarte",
     "Will Barton",
     "Miles Bridges",
-    "OG Anunoby",
+    "Cameron Johnson",
 ]
 MEDIC_PLAYERS_LINKS = [
     "youngtr01",
@@ -311,7 +311,7 @@ MEDIC_PLAYERS_LINKS = [
     "duartch01",
     "bartowi01",
     "bridgmi02",
-    "anunoog01",
+    "johnsca02",
 ]
 MEDIC_PLAYERS = {"Medic": list(zip(MEDIC_PLAYERS_NAMES, MEDIC_PLAYERS_LINKS))}
 MEDIC_TEAMS = ["ATL", "MIN", "IND", "ATL", "TOR", "PHO", "IND", "DEN", "CHO", "MEM"]
