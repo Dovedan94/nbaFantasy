@@ -155,7 +155,7 @@ GOSTOVIC_PLAYERS_NAMES = [
     "Spencer Dinwiddie",
     "Keldon Johnson",
     "Eric Gordon",
-    "Darius Bazley",
+    "OG Anunoby",
     "Cam Reddish",
 ]
 GOSTOVIC_PLAYERS_LINKS = [
@@ -167,7 +167,7 @@ GOSTOVIC_PLAYERS_LINKS = [
     "dinwisp01",
     "johnske04",
     "gordoer01",
-    "bazleda01",
+    "anunoog01",
     "reddica01",
 ]
 GOSTOVIC_PLAYERS = {
@@ -408,7 +408,7 @@ TUROHAN_PLAYERS_NAMES = [
     "Lonzo Ball",
     "Carmelo Anthony",
     "Nicolas Batum",
-    "Zion Williamson",
+    "Kyrie Irving",
     "Dāvis Bertāns",
 ]
 TUROHAN_PLAYERS_LINKS = [
@@ -420,7 +420,7 @@ TUROHAN_PLAYERS_LINKS = [
     "balllo01",
     "anthoca01",
     "batumni01",
-    "willizi01",
+    "irvinky01",
     "bertada01",
 ]
 TUROHAN_PLAYERS = {"Turohan": list(zip(TUROHAN_PLAYERS_NAMES, TUROHAN_PLAYERS_LINKS))}

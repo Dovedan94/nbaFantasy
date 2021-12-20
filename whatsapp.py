@@ -23,6 +23,7 @@ def send_tabela_data_via_whatsapp():
 
     dfi.export(df_new, "tabela.png")
     current_time = strftime("%Y-%m-%d %H:%M:%S", localtime())
+    print(f"tabela ažurirana: {current_time}")
     pywhatkit.sendwhats_image(
         "+381631076732",
         "tabela.png",
