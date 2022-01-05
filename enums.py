@@ -71,7 +71,7 @@ DOVEDAN_PLAYERS_NAMES = [
     "Mike Conley",
     "Gordon Hayward",
     "Kyle Lowry",
-    "Derrick Rose",
+    "Garrison Mathews",
     "Tyrese Haliburton",
     "Joe Ingles",
     "Grayson Allen",
@@ -83,7 +83,7 @@ DOVEDAN_PLAYERS_LINKS = [
     "conlemi01",
     "haywago01",
     "lowryky01",
-    "rosede01",
+    "mathega01",
     "halibty01",
     "inglejo01",
     "allengr01",
@@ -125,7 +125,7 @@ FIZESAN_PLAYERS_NAMES = [
     "Andrew Wiggins",
     "LaMelo Ball",
     "Franz Wagner",
-    "Kevin Porter Jr.",
+    "Max Strus",
     "Pat Connaughton",
     "Montrezl Harrell",
     "Richaun Holmes",
@@ -137,7 +137,7 @@ FIZESAN_PLAYERS_LINKS = [
     "wiggian01",
     "ballla01",
     "wagnefr01",
-    "porteke02",
+    "strusma01",
     "connapa01",
     "harremo01",
     "holmeri01",
@@ -235,7 +235,7 @@ KARADZIC_TEAMS = ["BOS", "PHI", "MIA", "MIA", "GSW", "MIN", "SAC", "POR", "PHI",
 
 MANDIC_PLAYERS_NAMES = [
     "Donovan Mitchell",
-    "Furkan Korkmaz",
+    "Doug McDermott",
     "Gary Trent Jr.",
     "Jerami Grant",
     "Reggie Jackson",
@@ -247,7 +247,7 @@ MANDIC_PLAYERS_NAMES = [
 ]
 MANDIC_PLAYERS_LINKS = [
     "mitchdo01",
-    "korkmfu01",
+    "mcderdo01",
     "trentga02",
     "grantje01",
     "jacksre01",
@@ -265,7 +265,7 @@ MARINOVIC_PLAYERS_NAMES = [
     "Khris Middleton",
     "Shai Gilgeous-Alexander",
     "DeMar DeRozan",
-    "Ricky Rubio",
+    "Cameron Payne",
     "Danilo Gallinari",
     "Shake Milton",
     "Evan Mobley",
@@ -277,7 +277,7 @@ MARINOVIC_PLAYERS_LINKS = [
     "middlkh01",
     "gilgesh01",
     "derozde01",
-    "rubiori01",
+    "payneca01",
     "gallida01",
     "miltosh01",
     "mobleev01",
@@ -344,7 +344,7 @@ MILIC_PLAYERS = {"Milic": list(zip(MILIC_PLAYERS_NAMES, MILIC_PLAYERS_LINKS))}
 MILIC_TEAMS = ["LAL", "MEM", "GSW", "NYK", "IND", "HOU", "BOS", "MIL", "ORL", "HOU"]
 
 MRAKOVIC_PLAYERS_NAMES = [
-    "Paul George",
+    "Armoni Brooks",
     "Zach LaVine",
     "Bam Adebayo",
     "Jordan Clarkson",
@@ -356,7 +356,7 @@ MRAKOVIC_PLAYERS_NAMES = [
     "Nickeil Alexander-Walker",
 ]
 MRAKOVIC_PLAYERS_LINKS = [
-    "georgpa01",
+    "brookar01",
     "lavinza01",
     "adebaba01",
     "clarkjo01",
@@ -464,7 +464,7 @@ SAVOVIC_PLAYERS_NAMES = [
     "Luguentz Dort",
     "Kevin Huerter",
     "Aaron Gordon",
-    "Josh Jackson",
+    "DeMarcus Cousins",
 ]
 SAVOVIC_PLAYERS_LINKS = [
     "bealbr01",
@@ -476,7 +476,7 @@ SAVOVIC_PLAYERS_LINKS = [
     "dortlu01",
     "huertke01",
     "gordoaa01",
-    "jacksjo02",
+    "couside01",
 ]
 SAVOVIC_PLAYERS = {"Savovic": list(zip(SAVOVIC_PLAYERS_NAMES, SAVOVIC_PLAYERS_LINKS))}
 SAVOVIC_TEAMS = ["WAS", "SAC", "TOR", "SAS", "UTA", "PHI", "OKC", "ATL", "TOR", "DET"]
