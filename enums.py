@@ -344,7 +344,7 @@ MILIC_PLAYERS = {"Milic": list(zip(MILIC_PLAYERS_NAMES, MILIC_PLAYERS_LINKS))}
 MILIC_TEAMS = ["LAL", "MEM", "GSW", "NYK", "IND", "HOU", "BOS", "MIL", "ORL", "HOU"]
 
 MRAKOVIC_PLAYERS_NAMES = [
-    "Armoni Brooks",
+    "Lance Stephenson",
     "Zach LaVine",
     "Bam Adebayo",
     "Jordan Clarkson",
@@ -356,7 +356,7 @@ MRAKOVIC_PLAYERS_NAMES = [
     "Nickeil Alexander-Walker",
 ]
 MRAKOVIC_PLAYERS_LINKS = [
-    "brookar01",
+    "stephla01",
     "lavinza01",
     "adebaba01",
     "clarkjo01",
