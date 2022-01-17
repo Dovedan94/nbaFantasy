@@ -66,7 +66,7 @@ TEAMS_NAMES = [
 TEAMS = zip(TEAMS_ABBS, TEAMS_NAMES)
 
 DOVEDAN_PLAYERS_NAMES = [
-    "Kevin Durant",
+    "Jalen Suggs",
     "Chris Paul",
     "Mike Conley",
     "Gordon Hayward",
@@ -78,7 +78,7 @@ DOVEDAN_PLAYERS_NAMES = [
     "Alec Burks",
 ]
 DOVEDAN_PLAYERS_LINKS = [
-    "duranke01",
+    "suggsja01",
     "paulch01",
     "conlemi01",
     "haywago01",
