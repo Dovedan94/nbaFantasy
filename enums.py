@@ -73,7 +73,7 @@ DOVEDAN_PLAYERS_NAMES = [
     "Kyle Lowry",
     "Garrison Mathews",
     "Tyrese Haliburton",
-    "Joe Ingles",
+    "Lonnie Walker IV",
     "Grayson Allen",
     "Alec Burks",
 ]
@@ -85,7 +85,7 @@ DOVEDAN_PLAYERS_LINKS = [
     "lowryky01",
     "mathega01",
     "halibty01",
-    "inglejo01",
+    "walkelo01",
     "allengr01",
     "burksal01",
 ]
@@ -380,8 +380,8 @@ PEJOVIC_PLAYERS_NAMES = [
     "Darius Garland",
     "Kyle Kuzma",
     "Kelly Oubre Jr.",
-    "James Wiseman",
-    "James Bouknight",
+    "Kevin Love",
+    "Coby White",
     "Aleksej Pokusevski",
 ]
 PEJOVIC_PLAYERS_LINKS = [
@@ -392,12 +392,13 @@ PEJOVIC_PLAYERS_LINKS = [
     "garlada01",
     "kuzmaky01",
     "oubreke01",
-    "wisemja01",
-    "bouknja01",
+    "loveke01",
+    "whiteco01",
     "pokusal01",
 ]
 PEJOVIC_PLAYERS = {"Pejovic": list(zip(PEJOVIC_PLAYERS_NAMES, PEJOVIC_PLAYERS_LINKS))}
-PEJOVIC_TEAMS = ["PHO", "NOP", "IND", "MEM", "CLE", "WAS", "CHO", "GSW", "CHO", "OKC"]
+PEJOVIC_TEAMS = ["PHO", "NOP", "IND", "MEM", "CLE", "WAS", "CHO", "GSW", "CHO",
+                 "OKC"]
 
 TUROHAN_PLAYERS_NAMES = [
     "Luka Dončić",
@@ -405,7 +406,7 @@ TUROHAN_PLAYERS_NAMES = [
     "Kristaps Porziņģis",
     "Jonas Valančiūnas",
     "D'Angelo Russell",
-    "Lonzo Ball",
+    "Lou Williams",
     "Carmelo Anthony",
     "Nicolas Batum",
     "Kyrie Irving",
@@ -417,7 +418,7 @@ TUROHAN_PLAYERS_LINKS = [
     "porzikr01",
     "valanjo01",
     "russeda01",
-    "balllo01",
+    "willilo02",
     "anthoca01",
     "batumni01",
     "irvinky01",
@@ -486,24 +487,24 @@ SUBERIC_PLAYERS_NAMES = [
     "Stephen Curry",
     "Julius Randle",
     "Anthony Edwards",
-    "Norman Powell",
-    "Tim Hardaway Jr.",
+    "Devin Vassell",
+    "Jakob Poeltl",
     "Evan Fournier",
     "Duncan Robinson",
     "Saddiq Bey",
-    "Myles Turner",
+    "Josh Hart",
     "Kentavious Caldwell-Pope",
 ]
 SUBERIC_PLAYERS_LINKS = [
     "curryst01",
     "randlju01",
     "edwaran01",
-    "powelno01",
-    "hardati02",
+    "vassede01",
+    "poeltja01",
     "fournev01",
     "robindu01",
     "beysa01",
-    "turnemy01",
+    "hartjo01",
     "caldwke01",
 ]
 SUBERIC_PLAYERS = {"Suberic": list(zip(SUBERIC_PLAYERS_NAMES, SUBERIC_PLAYERS_LINKS))}
