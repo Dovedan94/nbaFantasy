@@ -1,4 +1,5 @@
 from pprint import pprint
+from time import strftime, localtime
 
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
@@ -10,7 +11,6 @@ from main import get_single_fantasy_player_total_points, get_game_logs_data
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 SERVICE_ACCOUNT_FILE = "google_api_key.json"
 
-# promeni za dict posle
 creds = service_account.Credentials.from_service_account_file(
     SERVICE_ACCOUNT_FILE, scopes=SCOPES
 )
@@ -106,3 +106,17 @@ def get_tabela_data():
     all_data = response.get("values", [])
 
     return all_data
+
+
+def updated_at():
+    current_time = [strftime("%d-%m-%Y %H:%M:%S", localtime())]
+    value_range_body = {
+        "majorDimension": "COLUMNS",
+        "values": [current_time],
+    }
+    service.spreadsheets().values().update(
+        spreadsheetId=SPREADSHEET_ID,
+        range="TABELA!B1",
+        valueInputOption="RAW",
+        body=value_range_body,
+    ).execute()

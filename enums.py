@@ -71,7 +71,7 @@ DOVEDAN_PLAYERS_NAMES = [
     "Mike Conley",
     "Gordon Hayward",
     "Kyle Lowry",
-    "Garrison Mathews",
+    "Kevin Durant",
     "Tyrese Haliburton",
     "Lonnie Walker IV",
     "Grayson Allen",
@@ -83,7 +83,7 @@ DOVEDAN_PLAYERS_LINKS = [
     "conlemi01",
     "haywago01",
     "lowryky01",
-    "mathega01",
+    "duranke01",
     "halibty01",
     "walkelo01",
     "allengr01",
@@ -397,8 +397,7 @@ PEJOVIC_PLAYERS_LINKS = [
     "pokusal01",
 ]
 PEJOVIC_PLAYERS = {"Pejovic": list(zip(PEJOVIC_PLAYERS_NAMES, PEJOVIC_PLAYERS_LINKS))}
-PEJOVIC_TEAMS = ["PHO", "NOP", "IND", "MEM", "CLE", "WAS", "CHO", "GSW", "CHO",
-                 "OKC"]
+PEJOVIC_TEAMS = ["PHO", "NOP", "IND", "MEM", "CLE", "WAS", "CHO", "GSW", "CHO", "OKC"]
 
 TUROHAN_PLAYERS_NAMES = [
     "Luka Dončić",

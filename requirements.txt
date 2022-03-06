@@ -18,7 +18,6 @@ beautifulsoup4==4.10.0
     # via
     #   -r requirements.in
     #   dataframe-image
-    #   wikipedia
 black==22.1.0
     # via -r requirements.in
 bleach==4.1.0
@@ -102,8 +101,6 @@ matplotlib==3.5.1
     # via dataframe-image
 mistune==0.8.4
     # via nbconvert
-mouseinfo==0.1.3
-    # via pyautogui
 multidict==6.0.2
     # via
     #   aiohttp
@@ -143,10 +140,7 @@ pathspec==0.9.0
 pep517==0.12.0
     # via pip-tools
 pillow==9.0.1
-    # via
-    #   matplotlib
-    #   pyscreeze
-    #   pywhatkit
+    # via matplotlib
 pip-tools==6.5.1
     # via -r requirements.in
 platformdirs==2.5.0
@@ -161,44 +155,24 @@ pyasn1==0.4.8
     #   rsa
 pyasn1-modules==0.2.8
     # via google-auth
-pyautogui==0.9.53
-    # via pywhatkit
-pygetwindow==0.0.9
-    # via pyautogui
 pygments==2.11.2
     # via
     #   jupyterlab-pygments
     #   nbconvert
-pymsgbox==1.0.9
-    # via pyautogui
 pyparsing==3.0.7
     # via
     #   httplib2
     #   matplotlib
     #   packaging
-pyperclip==1.8.2
-    # via mouseinfo
-pyrect==0.1.4
-    # via pygetwindow
 pyrsistent==0.18.1
     # via jsonschema
-pyscreeze==0.1.28
-    # via pyautogui
 python-dateutil==2.8.2
     # via
     #   jupyter-client
     #   matplotlib
     #   pandas
-python3-xlib==0.15
-    # via
-    #   mouseinfo
-    #   pyautogui
-pytweening==1.0.4
-    # via pyautogui
 pytz==2021.3
     # via pandas
-pywhatkit==5.3
-    # via -r requirements.in
 pyzmq==22.3.0
     # via jupyter-client
 requests==2.27.1
@@ -206,9 +180,7 @@ requests==2.27.1
     #   -r requirements.in
     #   dataframe-image
     #   google-api-core
-    #   pywhatkit
     #   requests-oauthlib
-    #   wikipedia
 requests-oauthlib==1.3.1
     # via google-auth-oauthlib
 rsa==4.8
@@ -246,8 +218,6 @@ webencodings==0.5.1
     # via bleach
 wheel==0.37.1
     # via pip-tools
-wikipedia==1.4.0
-    # via pywhatkit
 yarl==1.7.2
     # via aiohttp
 zipp==3.7.0

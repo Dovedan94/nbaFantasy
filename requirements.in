@@ -6,5 +6,4 @@ google-auth-oauthlib
 dataframe-image
 pandas
 pip-tools
-pywhatkit
 requests
