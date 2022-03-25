@@ -126,7 +126,7 @@ FIZESAN_PLAYERS_NAMES = [
     "LaMelo Ball",
     "Franz Wagner",
     "Max Strus",
-    "Pat Connaughton",
+    "Goran Dragić",
     "Montrezl Harrell",
     "Richaun Holmes",
     "Scottie Barnes",
@@ -138,7 +138,7 @@ FIZESAN_PLAYERS_LINKS = [
     "ballla01",
     "wagnefr01",
     "strusma01",
-    "connapa01",
+    "dragigo01",
     "harremo01",
     "holmeri01",
     "barnesc01",
@@ -294,7 +294,7 @@ MEDIC_PLAYERS_NAMES = [
     "Karl-Anthony Towns",
     "Malcolm Brogdon",
     "John Collins",
-    "Talen Horton-Tucker",
+    "Jamal Murray",
     "Mikal Bridges",
     "Chris Duarte",
     "Will Barton",
@@ -306,7 +306,7 @@ MEDIC_PLAYERS_LINKS = [
     "townska01",
     "brogdma01",
     "collijo01",
-    "hortota01",
+    "murraja01",
     "bridgmi01",
     "duartch01",
     "bartowi01",
@@ -483,7 +483,7 @@ SAVOVIC_TEAMS = ["WAS", "SAC", "TOR", "SAS", "UTA", "PHI", "OKC", "ATL", "TOR", 
 
 
 SUBERIC_PLAYERS_NAMES = [
-    "Stephen Curry",
+    "Darius Bazley",
     "Julius Randle",
     "Anthony Edwards",
     "Devin Vassell",
@@ -495,7 +495,7 @@ SUBERIC_PLAYERS_NAMES = [
     "Kentavious Caldwell-Pope",
 ]
 SUBERIC_PLAYERS_LINKS = [
-    "curryst01",
+    "bazleda01",
     "randlju01",
     "edwaran01",
     "vassede01",
