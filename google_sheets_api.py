@@ -5,7 +5,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 
-from enums import ALL_ROSTERS
+from enums import ALL_ROSTERS, ALL_PLAYERS_PTS_LOGS
 from main import get_single_fantasy_player_total_points, get_game_logs_data
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
@@ -120,3 +120,7 @@ def updated_at():
         valueInputOption="RAW",
         body=value_range_body,
     ).execute()
+
+
+write_all_pts_logs(ALL_PLAYERS_PTS_LOGS)
+updated_at()

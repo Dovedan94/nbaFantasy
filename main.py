@@ -4,7 +4,6 @@ import requests
 from bs4 import BeautifulSoup
 
 from enums import ALL_PLAYERS_PTS_LOGS
-from google_sheets_api import write_all_pts_logs, updated_at
 
 
 def get_all_points_by_team(teams_abbreviations):
@@ -103,7 +102,3 @@ def get_all_game_logs_data(all_fantasy_player_list):
         all_data.append(get_game_logs_data(players))
 
     return all_data
-
-
-write_all_pts_logs(ALL_PLAYERS_PTS_LOGS)
-updated_at()
