@@ -270,7 +270,7 @@ MARINOVIC_PLAYERS_NAMES = [
     "Shake Milton",
     "Evan Mobley",
     "Bobby Portis",
-    "Josh Giddey",
+    "Kevin Porter Jr.",
 ]
 MARINOVIC_PLAYERS_LINKS = [
     "jamesle01",
@@ -282,7 +282,7 @@ MARINOVIC_PLAYERS_LINKS = [
     "miltosh01",
     "mobleev01",
     "portibo01",
-    "giddejo01",
+    "porteke02",
 ]
 MARINOVIC_PLAYERS = {
     "Marinovic": list(zip(MARINOVIC_PLAYERS_NAMES, MARINOVIC_PLAYERS_LINKS))
