@@ -263,7 +263,7 @@ MANDIC_TEAMS = ["UTA", "DEN", "TOR", "DET", "LAC", "ATL", "ORL", "LAC", "PHO", "
 MARINOVIC_PLAYERS_NAMES = [
     "LeBron James",
     "Khris Middleton",
-    "Shai Gilgeous-Alexander",
+    "Brandon Williams",
     "DeMar DeRozan",
     "Cameron Payne",
     "Danilo Gallinari",
@@ -275,7 +275,7 @@ MARINOVIC_PLAYERS_NAMES = [
 MARINOVIC_PLAYERS_LINKS = [
     "jamesle01",
     "middlkh01",
-    "gilgesh01",
+    "willibr03",
     "derozde01",
     "payneca01",
     "gallida01",
