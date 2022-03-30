@@ -353,7 +353,7 @@ MRAKOVIC_PLAYERS_NAMES = [
     "Marcus Morris",
     "Jalen Brunson",
     "Desmond Bane",
-    "Nickeil Alexander-Walker",
+    "Paul George",
 ]
 MRAKOVIC_PLAYERS_LINKS = [
     "stephla01",
@@ -365,7 +365,7 @@ MRAKOVIC_PLAYERS_LINKS = [
     "morrima03",
     "brunsja01",
     "banede01",
-    "alexani01",
+    "georgpa01",
 ]
 MRAKOVIC_PLAYERS = {
     "Mrakovic": list(zip(MRAKOVIC_PLAYERS_NAMES, MRAKOVIC_PLAYERS_LINKS))
