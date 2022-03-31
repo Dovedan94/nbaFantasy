@@ -483,7 +483,7 @@ SAVOVIC_TEAMS = ["WAS", "SAC", "TOR", "SAS", "UTA", "PHI", "OKC", "ATL", "TOR", 
 
 
 SUBERIC_PLAYERS_NAMES = [
-    "Darius Bazley",
+    "Stephen Curry",
     "Julius Randle",
     "Anthony Edwards",
     "Devin Vassell",
@@ -495,7 +495,7 @@ SUBERIC_PLAYERS_NAMES = [
     "Kentavious Caldwell-Pope",
 ]
 SUBERIC_PLAYERS_LINKS = [
-    "bazleda01",
+    "curryst01",
     "randlju01",
     "edwaran01",
     "vassede01",
