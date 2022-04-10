@@ -5,11 +5,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
+
 # Function scrapes NBA teams pages and gets all players total points in
 # specified season
-from rosters import DOVEDAN_ROSTER
-
-
 def get_all_points_by_team_and_season(
     team_abbreviation: List[str], season: str
 ) -> List[Dict]:
