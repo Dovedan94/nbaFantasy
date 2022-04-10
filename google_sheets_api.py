@@ -1,12 +1,11 @@
 from pprint import pprint
 from time import strftime, localtime
+from typing import Dict, List
 
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
-
-from enums import ALL_ROSTERS, ALL_PLAYERS_PTS_LOGS
-from main import get_single_fantasy_player_total_points, get_game_logs_data
+from main import get_game_logs_data
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 SERVICE_ACCOUNT_FILE = "google_api_key.json"
@@ -23,10 +22,10 @@ service = build("sheets", "v4", credentials=creds)
 sheet = service.spreadsheets()
 
 
-# CREATE SHEETS FOR ALL FANTASY PLAYERS
-def create_sheets_for_all_fantasy_players():
-    for fantasy_player in ALL_ROSTERS:
-        fantasy_player_name = list(fantasy_player.keys())
+# Function creates sheets for all fantasy players
+def create_sheets_for_all_fantasy_players(all_rosters: List[Dict]):
+    for roster in all_rosters:
+        fantasy_player_name = list(roster.keys())
         body = {
             "requests": [
                 {
@@ -44,27 +43,11 @@ def create_sheets_for_all_fantasy_players():
         ).execute()
 
 
-def write_total_points_to_a_specific_sheet(player_roster):
-    roster = get_single_fantasy_player_total_points(player_roster)
-    sheet_name = list(player_roster.keys())[0]
-    new_range = sheet_name + RANGE_NAME
-    service.spreadsheets().values().update(
-        spreadsheetId=SPREADSHEET_ID,
-        range=new_range,
-        valueInputOption="USER_ENTERED",
-        body={"values": roster},
-    ).execute()
+# Function writes total points for a specified fantasy player roster
+def write_a_single_pts_logs(fantasy_player_roster: Dict):
+    roster = get_game_logs_data(fantasy_player_roster)
 
-
-def write_total_points_to_all_sheets():
-    for player_roster in ALL_ROSTERS:
-        write_total_points_to_a_specific_sheet(player_roster)
-
-
-def write_a_single_pts_logs(player_pts_logs):
-    roster = get_game_logs_data(player_pts_logs)
-
-    sheet_name = list(player_pts_logs.keys())[0]
+    sheet_name = list(fantasy_player_roster.keys())[0]
     new_range = sheet_name + RANGE_NAME
     value_input_option = "USER_ENTERED"
 
@@ -87,15 +70,15 @@ def write_a_single_pts_logs(player_pts_logs):
     pprint(response)
 
 
-def write_all_pts_logs(all_players_pts_logs):
-    for player in all_players_pts_logs:
-        print(player)
+# Function takes all rosters dict and writes points in the appropriate sheets
+def write_all_pts_logs(all_rosters: Dict):
+    for player in all_rosters:
         write_a_single_pts_logs(player)
 
 
-def get_tabela_data():
-
-    sheet_range = "TABELA!E2:H17"
+# Function gets current table standings e.g Sheet1!A1:H15
+def get_tabela_data(table_location: str) -> List[List]:
+    sheet_range = table_location
     request = (
         service.spreadsheets()
         .values()
@@ -108,7 +91,8 @@ def get_tabela_data():
     return all_data
 
 
-def updated_at():
+# Function writes 'updated at' time, in specified cell e.g. Sheet1!A1
+def updated_at(cell_location: str):
     current_time = [strftime("%d-%m-%Y %H:%M:%S", localtime())]
     value_range_body = {
         "majorDimension": "COLUMNS",
@@ -116,11 +100,7 @@ def updated_at():
     }
     service.spreadsheets().values().update(
         spreadsheetId=SPREADSHEET_ID,
-        range="TABELA!B1",
+        range=cell_location,
         valueInputOption="RAW",
         body=value_range_body,
     ).execute()
-
-
-write_all_pts_logs(ALL_PLAYERS_PTS_LOGS)
-updated_at()
