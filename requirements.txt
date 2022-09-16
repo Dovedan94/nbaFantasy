@@ -76,8 +76,6 @@ idna==3.3
     # via
     #   requests
     #   yarl
-importlib-resources==5.4.0
-    # via jsonschema
 ipython-genutils==0.2.0
     # via nbformat
 jinja2==3.0.3
@@ -123,7 +121,7 @@ numpy==1.22.2
     # via
     #   matplotlib
     #   pandas
-oauthlib==3.2.0
+oauthlib==3.2.1
     # via requests-oauthlib
 packaging==21.3
     # via
@@ -208,8 +206,6 @@ traitlets==5.1.1
     #   nbclient
     #   nbconvert
     #   nbformat
-typing-extensions==4.1.1
-    # via black
 uritemplate==4.1.1
     # via google-api-python-client
 urllib3==1.26.8
@@ -220,8 +216,6 @@ wheel==0.37.1
     # via pip-tools
 yarl==1.7.2
     # via aiohttp
-zipp==3.7.0
-    # via importlib-resources
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
