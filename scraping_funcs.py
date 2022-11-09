@@ -5,7 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 
 
-
 # Function scrapes NBA teams pages and gets all players total points in
 # specified season
 def get_all_points_by_team_and_season(

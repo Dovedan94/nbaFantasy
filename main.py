@@ -1,3 +1,4 @@
+from time import sleep
 from typing import List, Dict
 
 import requests
@@ -9,12 +10,13 @@ def get_game_logs_data(fantasy_player: Dict) -> List:
     all_data = []
     for players in list(fantasy_player.values())[0]:
         nba_player_points = [f"{players[0]}"]
-        game_log_link = f"https://www.basketball-reference.com/players/{players[1][0]}/{players[1]}/gamelog/2022"
+        game_log_link = f"https://www.basketball-reference.com/players/{players[1][0]}/{players[1]}/gamelog/2023"
         print(game_log_link)
         page = requests.get(game_log_link)
         soup = BeautifulSoup(page.content, "html.parser")
         # FINDS ALL ROWS IN THE TABLE
         regular_season_points_table = soup.find("table", id="pgl_basic").find_all("tr")
+        sleep(3)
 
         for column in regular_season_points_table[1::]:
             if column.find("td") is not None:
@@ -36,3 +38,4 @@ def get_all_game_logs_data(all_rosters: list) -> List:
         all_data.append(get_game_logs_data(roster))
 
     return all_data
+

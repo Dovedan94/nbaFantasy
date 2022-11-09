@@ -1,250 +1,217 @@
-DOVEDAN_PLAYERS = [
-    ("Jalen Suggs", "suggsja01"),
-    ("Chris Paul", "paulch01"),
-    ("Mike Conley", "conlemi01"),
-    ("Gordon Hayward", "haywago01"),
-    ("Kyle Lowry", "lowryky01"),
-    ("Kevin Durant", "duranke01"),
-    ("Tyrese Haliburton", "halibty01"),
-    ("Lonnie Walker IV", "walkelo01"),
-    ("Grayson Allen", "allengr01"),
-    ("Alec Burks", "burksal01"),
-]
-DOVEDAN_ROSTER = {"Dovedan": DOVEDAN_PLAYERS}
-
 DUNJIC_PLAYERS = [
-    ("Joel Embiid", "embiijo01"),
-    ("Jaylen Brown", "brownja02"),
-    ("Cade Cunningham", "cunnica01"),
-    ("Deandre Ayton", "aytonde01"),
-    ("Christian Wood", "woodch01"),
-    ("Derrick White", "whitede01"),
-    ("Devonte' Graham", "grahade01"),
-    ("Wendell Carter Jr.", "cartewe01"),
-    ("Patty Mills", "millspa02"),
-    ("Luke Kennard", "kennalu01"),
+    ("Bol Bol", "bolbo01"),
+    ("Karl-Anthony Towns", "townska01"),
+    ("Klay Thompson", "thompkl01"),
+    ("DAndrew Wiggins", "wiggian01"),
+    ("Tobias Harris", "harrito02"),
+    ("Collin Sexton", "sextoco01"),
+    ("Franz Wagner", "wagnefr01"),
+    ("Jusuf Nurkić", "nurkiju01"),
+    ("Max Strus", "strusma01"),
+    ("P.J. Washington", "washipj01"),
 ]
-DUNJIC_ROSTER = {"Dunjic": DUNJIC_PLAYERS}
+DUNJIC_ROSTER = {"DUNJIC": DUNJIC_PLAYERS}
 
 FIZESAN_PLAYERS = [
-    ("James Harden", "hardeja01"),
-    ("Anfernee Simons", "simonan01"),
-    ("Andrew Wiggins", "wiggian01"),
-    ("LaMelo Ball", "ballla01"),
-    ("Franz Wagner", "wagnefr01"),
-    ("Max Strus", "strusma01"),
-    ("Goran Dragić", "dragigo01"),
-    ("Montrezl Harrell", "harremo01"),
-    ("Richaun Holmes", "holmeri01"),
-    ("Scottie Barnes", "barnesc01"),
-]
-FIZESAN_ROSTER = {"Fizesan": FIZESAN_PLAYERS}
-
-
-GOSTOVIC_PLAYERS = [
-    ("Damian Lillard", "lillada01"),
-    ("Terry Rozier", "roziete01"),
-    ("Jrue Holiday", "holidjr01"),
-    ("Bojan Bogdanović", "bogdabo02"),
-    ("Joe Harris", "harrijo01"),
+    ("Kevin Durant", "duranke01"),
+    ("Darius Garland", "garlada01"),
+    ("Jimmy Butler", "butleji01"),
+    ("Jalen Brunson", "brunsja01"),
+    ("Christian Wood", "woodch01"),
+    ("Evan Mobley", "mobleev01"),
     ("Spencer Dinwiddie", "dinwisp01"),
-    ("Keldon Johnson", "johnske04"),
+    ("Kyle Lowry", "lowryky01"),
+    ("Will Barton", "bartowi01"),
     ("Eric Gordon", "gordoer01"),
-    ("OG Anunoby", "anunoog01"),
-    ("Cam Reddish", "reddica01"),
 ]
-GOSTOVIC_ROSTER = {"Gostovic": GOSTOVIC_PLAYERS}
-
-JOKANOVIC_PLAYERS = [
-    ("Giannis Antetokounmpo", "antetgi01"),
-    ("CJ McCollum", "mccolcj01"),
-    ("Pascal Siakam", "siakapa01"),
-    ("Bogdan Bogdanović", "bogdabo01"),
-    ("John Wall", "walljo01"),
-    ("Dennis Schröder", "schrode01"),
-    ("Marcus Smart", "smartma01"),
-    ("Steven Adams", "adamsst01"),
-    ("Jarrett Allen", "allenja01"),
-    ("T.J. McConnell", "mccontj01"),
-]
-JOKANOVIC_ROSTER = {"Jokanovic": JOKANOVIC_PLAYERS}
+FIZESAN_ROSTER = {"FIZESAN": FIZESAN_PLAYERS}
 
 KARADZIC_PLAYERS = [
-    ("Jayson Tatum", "tatumja01"),
-    ("Tobias Harris", "harrito02"),
-    ("Jimmy Butler", "butleji01"),
-    ("Tyler Herro", "herroty01"),
-    ("Jordan Poole", "poolejo01"),
-    ("Malik Beasley", "beaslma01"),
-    ("Harrison Barnes", "barneha02"),
-    ("Jusuf Nurkić", "nurkiju01"),
-    ("Andre Drummond", "drumman01"),
-    ("Tyrese Maxey", "maxeyty01"),
+    ("Ja Morant", "moranja01"),
+    ("Zion Williamson", "willizi01"),
+    ("Khris Middleton", "middlkh01"),
+    ("Bam Adebayo", "adebaba01"),
+    ("Scottie Barnes", "barnesc01"),
+    ("Marcus Smart", "smartma01"),
+    ("Aaron Gordon", "gordoaa01"),
+    ("Derrick White", "whitede01"),
+    ("Montrezl Harrell", "harremo01"),
+    ("Bennedict Mathurin", "mathube01"),
 ]
-KARADZIC_ROSTER = {"Karadzic": KARADZIC_PLAYERS}
+KARADZIC_ROSTER = {"KARADZIC": KARADZIC_PLAYERS}
+
+KOVACEVIC_PLAYERS = [
+    ("Jaylen Nowell", "nowelja01"),
+    ("Jaylen Brown", "brownja02"),
+    ("Julius Randle", "randlju01"),
+    ("Fred VanVleet", "vanvlfr01"),
+    ("Keldon Johnson", "johnske04"),
+    ("Lauri Markkanen", "markkla01"),
+    ("Rudy Gobert", "goberru01"),
+    ("John Wall", "walljo01"),
+    ("Nick Richards", "richani01"),
+    ("Kelly Olynyk", "olynyke01"),
+]
+KOVACEVIC_ROSTER = {"KOVACEVIC": KOVACEVIC_PLAYERS}
 
 MANDIC_PLAYERS = [
-    ("Donovan Mitchell", "mitchdo01"),
-    ("Doug McDermott", "mcderdo01"),
-    ("Gary Trent Jr.", "trentga02"),
-    ("Jerami Grant", "grantje01"),
-    ("Reggie Jackson", "jacksre01"),
-    ("Clint Capela", "capelca01"),
-    ("Terrence Ross", "rosste01"),
-    ("Terance Mann", "mannte01"),
-    ("Jae Crowder", "crowdja01"),
-    ("Rui Hachimura", "hachiru01"),
+    ("Luka Dončić", "doncilu01"),
+    ("Pascal Siakam", "siakapa01"),
+    ("Tyler Herro", "herroty01"),
+    ("Tyrese Haliburton", "halibty01"),
+    ("Lonnie Walker IV", "walkelo01"),
+    ("De'Andre Hunter", "huntede01"),
+    ("Mikal Bridges", "bridgmi01"),
+    ("Luguentz Dort", "dortlu01"),
+    ("Devin Vassell", "vassede01"),
+    ("Brook Lopez", "lopezbr01"),
 ]
-MANDIC_ROSTER = {"Mandic": MANDIC_PLAYERS}
+MANDIC_ROSTER = {"MANDIC": MANDIC_PLAYERS}
 
 MARINOVIC_PLAYERS = [
-    ("LeBron James", "jamesle01"),
-    ("Khris Middleton", "middlkh01"),
-    ("Brandon Williams", "willibr03"),
-    ("DeMar DeRozan", "derozde01"),
-    ("Cameron Payne", "payneca01"),
-    ("Danilo Gallinari", "gallida01"),
-    ("Shake Milton", "miltosh01"),
-    ("Evan Mobley", "mobleev01"),
-    ("Bobby Portis", "portibo01"),
-    ("Kevin Porter Jr.", "porteke02"),
+    ("Joel Embiid", "embiijo01"),
+    ("Damian Lillard", "lillada01"),
+    ("Shai Gilgeous-Alexander", "gilgesh01"),
+    ("Terry Rozier", "roziete01"),
+    ("Kristaps Porziņģis", "porzikr01"),
+    ("Dillon Brooks", "brookdi01"),
+    ("Gary Trent Jr.", "trentga02"),
+    ("Gordon Hayward", "haywago01"),
+    ("Jabari Smith Jr.", "smithja05"),
+    ("Malik Beasley", "beaslma01"),
 ]
-MARINOVIC_ROSTER = {"Marinovic": MARINOVIC_PLAYERS}
+MARINOVIC_ROSTER = {"MARINOVIC": MARINOVIC_PLAYERS}
+
+MARKOVIC_PLAYERS = [
+    ("Nikola Jokić", "jokicni01"),
+    ("Jamal Murray", "murraja01"),
+    ("Michael Porter Jr.", "portemi01"),
+    ("Tyrese Maxey", "maxeyty01"),
+    ("Jerami Grant", "grantje01"),
+    ("Kevin Porter Jr.", "porteke02"),
+    ("James Wiseman", "wisemja01"),
+    ("Bones Hyland", "hylanbo01"),
+    ("Evan Fournier", "fournev01"),
+    ("Alperen Şengün", "sengual01"),
+]
+MARKOVIC_ROSTER = {"MRAKOVIC": MARKOVIC_PLAYERS}
 
 MEDIC_PLAYERS = [
     ("Trae Young", "youngtr01"),
-    ("Karl-Anthony Towns", "townska01"),
-    ("Malcolm Brogdon", "brogdma01"),
-    ("John Collins", "collijo01"),
-    ("Jamal Murray", "murraja01"),
-    ("Mikal Bridges", "bridgmi01"),
-    ("Chris Duarte", "duartch01"),
-    ("Will Barton", "bartowi01"),
-    ("Miles Bridges", "bridgmi02"),
-    ("Cameron Johnson", "johnsca02"),
-]
-MEDIC_ROSTER = {"Medic": MEDIC_PLAYERS}
-
-MILIC_PLAYERS = [
-    ("Anthony Davis", "davisan02"),
-    ("Ja Morant", "moranja01"),
-    ("Klay Thompson", "thompkl01"),
-    ("Kemba Walker", "walkeke02"),
-    ("Caris LeVert", "leverca01"),
+    ("Jordan Poole", "poolejo01"),
+    ("Desmond Bane", "banede01"),
     ("Jalen Green", "greenja05"),
-    ("Al Horford", "horfoal01"),
-    ("Brook Lopez", "lopezbr01"),
-    ("Cole Anthony", "anthoco01"),
-    ("Jae'Sean Tate", "tateja01"),
+    ("Anfernee Simons", "simonan01"),
+    ("Norman Powell", "powelno01"),
+    ("Paolo Banchero", "banchpa01"),
+    ("Keegan Murray", "murrake02"),
+    ("Trey Murphy III", "murphtr02"),
+    ("Kevin Huerter", "huertke01"),
 ]
-
-MILIC_ROSTER = {"Milic": MILIC_PLAYERS}
+MEDIC_ROSTER = {"MEDIC": MEDIC_PLAYERS}
 
 
 MRAKOVIC_PLAYERS = [
-    ("Lance Stephenson", "stephla01"),
-    ("Zach LaVine", "lavinza01"),
-    ("Bam Adebayo", "adebaba01"),
-    ("Jordan Clarkson", "clarkjo01"),
-    ("Jaren Jackson Jr.", "jacksja02"),
-    ("Malik Monk", "monkma01"),
-    ("Marcus Morris", "morrima03"),
-    ("Jalen Brunson", "brunsja01"),
-    ("Desmond Bane", "banede01"),
+    ("Jayson Tatum", "tatumja01"),
     ("Paul George", "georgpa01"),
+    ("De'Aaron Fox", "foxde01"),
+    ("Jrue Holiday", "holidjr01"),
+    ("Domantas Sabonis", "sabondo01"),
+    ("Buddy Hield", "hieldbu01"),
+    ("Malcolm Brogdon", "brogdma01"),
+    ("Cam Thomas", "thomaca02"),
+    ("Seth Curry", "curryse01"),
+    ("Jaden Ivey", "iveyja01"),
 ]
-MRAKOVIC_ROSTER = {"Mrakovic": MRAKOVIC_PLAYERS}
+MRAKOVIC_ROSTER = {"MRAKOVIC": MRAKOVIC_PLAYERS}
 
 
 PEJOVIC_PLAYERS = [
-    ("Devin Booker", "bookede01"),
+    ("Stephen Curry", "curryst01"),
+    ("Bradley Beal", "bealbr01"),
     ("Brandon Ingram", "ingrabr01"),
-    ("Domantas Sabonis", "sabondo01"),
-    ("Dillon Brooks", "brookdi01"),
-    ("Darius Garland", "garlada01"),
-    ("Kyle Kuzma", "kuzmaky01"),
-    ("Kelly Oubre Jr.", "oubreke01"),
-    ("Kevin Love", "loveke01"),
-    ("Coby White", "whiteco01"),
-    ("Aleksej Pokusevski", "pokusal01"),
+    ("Deandre Ayton", "aytonde01"),
+    ("OG Anunoby", "anunoog01"),
+    ("John Collins", "collijo01"),
+    ("Reggie Jackson", "jacksre01"),
+    ("Wendell Carter Jr.", "cartewe01"),
+    ("Jarrett Allen", "allenja01"),
+    ("Rui Hachimura", "hachiru01"),
 ]
 
-PEJOVIC_ROSTER = {"Pejovic": PEJOVIC_PLAYERS}
+PEJOVIC_ROSTER = {"PEJOVIC": PEJOVIC_PLAYERS}
 
+PERISIC_PLAYERS = [
+    ("LeBron James", "jamesle01"),
+    ("DeMar DeRozan", "derozde01"),
+    ("Dejounte Murray", "murrade01"),
+    ("RJ Barrett", "barrerj01"),
+    ("Cade Cunningham", "cunnica01"),
+    ("Russell Westbrook", "westbru01"),
+    ("Kelly Oubre Jr.", "oubreke01"),
+    ("Bobby Portis", "portibo01"),
+    ("Josh Hart", "hartjo01"),
+    ("Marcus Morris", "morrima03"),
+]
+
+PERISIC_ROSTER = {"PERISIC": PERISIC_PLAYERS}
 
 SAVCIC_PLAYERS = [
-    ("Nikola Jokić", "jokicni01"),
-    ("Nikola Vučević", "vucevni01"),
-    ("LaMarcus Aldridge", "aldrila01"),
-    ("Buddy Hield", "hieldbu01"),
-    ("RJ Barrett", "barrerj01"),
-    ("Seth Curry", "curryse01"),
-    ("Lauri Markkanen", "markkla01"),
-    ("Ivica Zubac", "zubaciv01"),
-    ("Monte Morris", "morrimo01"),
-    ("Davion Mitchell", "mitchda01"),
+    ("Myles Turner", "turnemy01"),
+    ("Donovan Mitchell", "mitchdo01"),
+    ("CJ McCollum", "mccolcj01"),
+    ("D'Angelo Russell", "russeda01"),
+    ("Nic Claxton", "claxtni01"),
+    ("Tim Hardaway Jr.", "hardati02"),
+    ("Chris Paul", "paulch01"),
+    ("Chris Boucher", "bouchch01"),
+    ("Duncan Robinson", "robindu01"),
+    ("Mike Conley", "conlemi01"),
 ]
 
-SAVCIC_ROSTER = {"Savcic": SAVCIC_PLAYERS}
-
-SAVOVIC_PLAYERS = [
-    ("Bradley Beal", "bealbr01"),
-    ("De'Aaron Fox", "foxde01"),
-    ("Fred VanVleet", "vanvlfr01"),
-    ("Dejounte Murray", "murrade01"),
-    ("Rudy Gobert", "goberru01"),
-    ("Cedi Osman", "osmande01"),
-    ("Luguentz Dort", "dortlu01"),
-    ("Kevin Huerter", "huertke01"),
-    ("Aaron Gordon", "gordoaa01"),
-    ("DeMarcus Cousins", "couside01"),
-]
-SAVOVIC_ROSTER = {"Savovic": SAVOVIC_PLAYERS}
-
+SAVCIC_ROSTER = {"SAVCIC": SAVCIC_PLAYERS}
 
 SUBERIC_PLAYERS = [
-    ("Stephen Curry", "curryst01"),
-    ("Julius Randle", "randlju01"),
+    ("Devin Booker", "bookede01"),
     ("Anthony Edwards", "edwaran01"),
-    ("Devin Vassell", "vassede01"),
-    ("Jakob Poeltl", "poeltja01"),
-    ("Evan Fournier", "fournev01"),
-    ("Duncan Robinson", "robindu01"),
+    ("LaMelo Ball", "ballla01"),
+    ("Nikola Vučević", "vucevni01"),
     ("Saddiq Bey", "beysa01"),
-    ("Josh Hart", "hartjo01"),
-    ("Kentavious Caldwell-Pope", "caldwke01"),
+    ("Jonas Valančiūnas", "valanjo01"),
+    ("Caris LeVert", "leverca01"),
+    ("Monte Morris", "morrimo01"),
+    ("Josh Giddey", "giddejo01"),
+    ("Harrison Barnes", "barneha02"),
 ]
-SUBERIC_ROSTER = {"Suberic": SUBERIC_PLAYERS}
+SUBERIC_ROSTER = {"SUBERIC": SUBERIC_PLAYERS}
 
 TUROHAN_PLAYERS = [
-    ("Luka Dončić", "doncilu01"),
-    ("Russell Westbrook", "westbru01"),
-    ("Kristaps Porziņģis", "porzikr01"),
-    ("Jonas Valančiūnas", "valanjo01"),
-    ("D'Angelo Russell", "russeda01"),
-    ("Lou Williams", "willilo02"),
-    ("Carmelo Anthony", "anthoca01"),
-    ("Nicolas Batum", "batumni01"),
-    ("Kyrie Irving", "irvinky01"),
-    ("Dāvis Bertāns", "bertada01"),
+    ("Giannis Antetokounmpo", "antetgi01"),
+    ("Zach LaVine", "lavinza01"),
+    ("Anthony Davis", "davisan02"),
+    ("Bojan Bogdanović", "bogdabo02"),
+    ("Jordan Clarkson", "clarkjo01"),
+    ("Bogdan Bogdanović", "bogdabo01"),
+    ("Kyle Kuzma", "kuzmaky01"),
+    ("Larry Nance Jr.", "nancela02"),
+    ("Ben Simmons", "simmobe01"),
+    ("Ivica Zubac", "zubaciv01"),
 ]
-TUROHAN_ROSTER = {"Turohan": TUROHAN_PLAYERS}
+TUROHAN_ROSTER = {"TUROHAN": TUROHAN_PLAYERS}
 
 ALL_ROSTERS = [
-    DOVEDAN_ROSTER,
     DUNJIC_ROSTER,
     FIZESAN_ROSTER,
-    GOSTOVIC_ROSTER,
-    JOKANOVIC_ROSTER,
     KARADZIC_ROSTER,
+    KOVACEVIC_ROSTER,
     MANDIC_ROSTER,
     MARINOVIC_ROSTER,
+    MARKOVIC_ROSTER,
     MEDIC_ROSTER,
-    MILIC_ROSTER,
     MRAKOVIC_ROSTER,
     PEJOVIC_ROSTER,
+    PERISIC_ROSTER,
     SAVCIC_ROSTER,
-    SAVOVIC_ROSTER,
     SUBERIC_ROSTER,
     TUROHAN_ROSTER,
 ]

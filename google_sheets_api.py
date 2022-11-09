@@ -6,6 +6,7 @@ from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
 from main import get_game_logs_data
+from rosters import ALL_ROSTERS
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 SERVICE_ACCOUNT_FILE = "google_api_key.json"
@@ -14,7 +15,7 @@ creds = service_account.Credentials.from_service_account_file(
     SERVICE_ACCOUNT_FILE, scopes=SCOPES
 )
 
-SPREADSHEET_ID = "1pQtzP5BM6P0Xib83FM7s32qCHdh2ZaQB6k_tk13pEJ4"
+SPREADSHEET_ID = "1hlpB4fH4fSo8xlI2BZUfNZaZum2DIUe3qdm32mAQXrc"
 RANGE_NAME = "!B4:K150"
 service = build("sheets", "v4", credentials=creds)
 
@@ -104,3 +105,7 @@ def updated_at(cell_location: str):
         valueInputOption="RAW",
         body=value_range_body,
     ).execute()
+
+#create_sheets_for_all_fantasy_players(ALL_ROSTERS)
+write_all_pts_logs(ALL_ROSTERS)
+updated_at("TABELA!B1")
