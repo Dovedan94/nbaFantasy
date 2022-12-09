@@ -27,7 +27,7 @@ build==0.8.0
     # via pip-tools
 cachetools==5.2.0
     # via google-auth
-certifi==2022.9.24
+certifi==2022.12.7
     # via requests
 charset-normalizer==2.1.1
     # via
@@ -201,11 +201,6 @@ soupsieve==2.3.2.post1
     # via beautifulsoup4
 tinycss2==1.2.1
     # via nbconvert
-tomli==2.0.1
-    # via
-    #   black
-    #   build
-    #   pep517
 tornado==6.2
     # via jupyter-client
 traitlets==5.5.0
