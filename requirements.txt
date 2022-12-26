@@ -201,11 +201,6 @@ soupsieve==2.3.2.post1
     # via beautifulsoup4
 tinycss2==1.2.1
     # via nbconvert
-tomli==2.0.1
-    # via
-    #   black
-    #   build
-    #   pep517
 tornado==6.2
     # via jupyter-client
 traitlets==5.5.0
@@ -223,7 +218,7 @@ webencodings==0.5.1
     # via
     #   bleach
     #   tinycss2
-wheel==0.37.1
+wheel==0.38.1
     # via pip-tools
 yarl==1.8.1
     # via aiohttp
