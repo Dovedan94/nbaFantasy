@@ -1,41 +1,38 @@
 from time import sleep
-from typing import List, Dict
 
-import requests
-from bs4 import BeautifulSoup
+from enums import MAINSHEET
+
+from basketball_reference import Player, get_all_nba_injuries
+from google_sheets import GoogleSheets
 
 
-# DOWNLOADS NBA PLAYERS GAME LOGS FOR A SINGLE FANTASY PLAYER
-def get_game_logs_data(fantasy_player: Dict) -> List:
+def get_data(participant_rosters: list[list]) -> list:
+    """
+    Function takes a list of lists (list of basketball reference links), obtained from participant rosters from Google
+    Sheets.
+    :param participant_rosters:
+    :return: List of NBA players points.
+    """
+
     all_data = []
-    for players in list(fantasy_player.values())[0]:
-        nba_player_points = [f"{players[0]}"]
-        game_log_link = f"https://www.basketball-reference.com/players/{players[1][0]}/{players[1]}/gamelog/2023"
-        print(game_log_link)
-        page = requests.get(game_log_link)
-        soup = BeautifulSoup(page.content, "html.parser")
-        # FINDS ALL ROWS IN THE TABLE
-        regular_season_points_table = soup.find("table", id="pgl_basic").find_all("tr")
-        sleep(3)
-
-        for column in regular_season_points_table[1::]:
-            if column.find("td") is not None:
-                if column.find_all("td")[0].text != "":
-                    nba_player_points.append(column.find_all("td")[26].text)
-                else:
-                    nba_player_points.append("0")
-
-        all_data.append(nba_player_points)
+    for roster in participant_rosters:
+        data = [roster[0]]
+        for nba_player in roster[1:]:
+            player = Player(nba_player, "2025")
+            sleep(3)
+            data.append(player.get_all_player_data())
+        all_data.append(data)
 
     return all_data
 
 
-# DOWNLOADS NBA PLAYERS GAME LOGS FOR ALL FANTASY PLAYERS
-def get_all_game_logs_data(all_rosters: list) -> List:
-    all_data = []
+def run_all(spreadsheet_link: str, year: str):
+    g_sheets = GoogleSheets(spreadsheet_link)
+    for data in get_data(g_sheets.read_sheet("START!A2:K12")):
+        g_sheets.update_single_sheet(data)
+    g_sheets.write_injury_report(get_all_nba_injuries(year))
+    g_sheets.updated_at()
+    return
 
-    for roster in all_rosters:
-        all_data.append(get_game_logs_data(roster))
 
-    return all_data
-
+run_all(MAINSHEET, "2025")
