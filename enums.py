@@ -1,4 +1,4 @@
-TEAMS_ABBS = [
+TEAM_ABBS = [
     "ATL",
     "BRK",
     "BOS",
@@ -31,7 +31,7 @@ TEAMS_ABBS = [
     "WAS",
 ]
 
-TEAMS_NAMES = [
+TEAM_NAMES = [
     "Atlanta_Hawks",
     "Brooklyn_Nets",
     "Boston_Celtics",
@@ -63,3 +63,6 @@ TEAMS_NAMES = [
     "Utah_Jazz",
     "Washington_Wizards",
 ]
+
+TESTSHEET = "1WxRKBH2Xa_fb0EZkTuKLdOp77bbHhD1HYk_MR1ufddU"
+MAINSHEET = "1udLe2Ho8QSPeWo0Dh0pDb-wxqpmEKeyWHzBPNEyzq7U"
