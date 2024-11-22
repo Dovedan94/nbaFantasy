@@ -131,9 +131,7 @@ packaging==24.1
     #   dataframe-image
     #   nbconvert
 pandas==2.2.3
-    # via
-    #   -r requirements.in
-    #   dataframe-image
+    # via dataframe-image
 pandocfilters==1.5.1
     # via nbconvert
 pathspec==0.12.1
@@ -204,7 +202,7 @@ soupsieve==2.6
     # via beautifulsoup4
 tinycss2==1.3.0
     # via nbconvert
-tornado==6.4.1
+tornado==6.4.2
     # via jupyter-client
 traitlets==5.14.3
     # via
