@@ -78,7 +78,7 @@ idna==3.10
     # via
     #   requests
     #   yarl
-jinja2==3.1.4
+jinja2==3.1.5
     # via nbconvert
 jsonschema==4.23.0
     # via nbformat
@@ -131,9 +131,7 @@ packaging==24.1
     #   dataframe-image
     #   nbconvert
 pandas==2.2.3
-    # via
-    #   -r requirements.in
-    #   dataframe-image
+    # via dataframe-image
 pandocfilters==1.5.1
     # via nbconvert
 pathspec==0.12.1
